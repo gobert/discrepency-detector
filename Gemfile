@@ -12,6 +12,8 @@ gem 'puma', '~> 3.7'
 gem 'rubocop'
 
 group :development, :test do
+  gem 'rspec-rails'
+
   gem 'pry-byebug'
 end
 
