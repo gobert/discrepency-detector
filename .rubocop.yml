@@ -1,0 +1,9 @@
+Style/Documentation:
+  Enabled: false
+
+# Yes: I think that:
+# if !true
+# is more understable than
+# unless true
+Style/NegatedIf:
+  Enabled: false

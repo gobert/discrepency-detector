@@ -13,12 +13,12 @@ Rails.application.configure do
 
   config.log_level = :debug
 
-  config.log_tags = [ :request_id ]
+  config.log_tags = [:request_id]
 
   config.active_support.deprecation = :notify
 
   config.log_formatter = ::Logger::Formatter.new
-  if ENV["RAILS_LOG_TO_STDOUT"].present?
+  if ENV['RAILS_LOG_TO_STDOUT'].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
     logger.formatter = config.log_formatter
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
