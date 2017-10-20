@@ -12,7 +12,7 @@ gem 'puma', '~> 3.7'
 gem 'rubocop'
 
 group :development, :test do
-  gem 'byebug'
+  gem 'pry-byebug'
 end
 
 group :development do
