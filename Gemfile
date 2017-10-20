@@ -9,12 +9,18 @@ gem 'rails', '~> 5.1.4'
 
 gem 'puma', '~> 3.7'
 
+gem 'faraday'
+
 gem 'rubocop'
 
 group :development, :test do
   gem 'rspec-rails'
 
   gem 'pry-byebug'
+end
+
+group :test do
+  gem 'webmock'
 end
 
 group :development do
