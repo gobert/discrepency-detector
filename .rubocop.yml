@@ -7,3 +7,6 @@ Style/Documentation:
 # unless true
 Style/NegatedIf:
   Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
