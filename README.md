@@ -1,8 +1,7 @@
 # Discrepency Detector
 [![Travis build information for branch master](https://api.travis-ci.org/gobert/discrepency-detector.svg?branch=master)](https://travis-ci.org/gobert/discrepency-detector)
 [![Dependency Status](https://gemnasium.com/gobert/discrepency-detector.svg)](https://gemnasium.com/gobert/discrepency-detector)
-
-[![Security warnings](https://hakiri.io/github/gobert/jeff-money/discrepency-detector.svg)](https://hakiri.io/projects/63f07d45395136)
+[![Security warnings](https://hakiri.io/github/gobert/discrepency-detector/master.svg)](https://hakiri.io/projects/63f07d45395136)
 [![Maintainability](https://api.codeclimate.com/v1/badges/4425814617c25e21de7e/maintainability)](https://codeclimate.com/github/gobert/discrepency-detector/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/4425814617c25e21de7e/test_coverage)](https://codeclimate.com/github/gobert/discrepency-detector/test_coverage)
 
