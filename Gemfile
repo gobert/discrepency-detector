@@ -16,12 +16,15 @@ gem 'faraday'
 gem 'rubocop'
 
 group :development, :test do
+  gem 'codeclimate-test-reporter'
+
   gem 'rspec-rails'
 
   gem 'pry-byebug'
 end
 
 group :test do
+  gem 'simplecov'
   gem 'webmock'
 end
 
